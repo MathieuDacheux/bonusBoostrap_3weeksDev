@@ -1,0 +1,39 @@
+:root {
+    --orange: #F8C8BB;
+    --green: #93DFB9;
+    --blue: #B5D9EB;
+    --pink: #F9BDD8;
+    --grey: #808080;
+}
+
+.blue {
+    background-color: var(--blue);
+    height: 10vh;
+}
+
+.green {
+    background-color: var(--green);
+    height: 10vh;
+}
+
+@media screen and (min-width: 992px) {
+    .green {
+        height: 90vh;
+    }
+}
+
+.orange {
+    background-color: var(--orange);
+    height: 10vh;
+}
+
+.pink {
+    background-color: var(--pink);
+    height: 50vh;
+}
+
+.grey {
+    background-color: var(--grey);
+    height: 15vh;
+}
+
